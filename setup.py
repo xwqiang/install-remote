@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="command tools",
+    name="command-tools",
     version="1.0",
     keywords=("command", "tools"),
     description="test",
@@ -22,7 +22,7 @@ setup(
     py_modules=[],
     entry_points={
         'console_scripts': [
-            'ci = command.echo:command_echo'
+            'ec = command.echo:command_echo'
         ]
     }
 )
